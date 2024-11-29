@@ -16,7 +16,7 @@ import { PaymentStatusDto } from './dto/payment-status.dto'
 import { PaymentDto } from './dto/payment.dto'
 import { PaymentService } from './payment.service'
 
-@Controller('payment')
+@Controller('payments')
 export class PaymentController {
 	constructor(private readonly paymentService: PaymentService) {}
 
